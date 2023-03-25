@@ -67,11 +67,29 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
-    background: royalblue;
     width: 100%;
     border-bottom: 1px solid black;
 }
 
 .todo__item-del{
+    cursor: pointer;
+}
+
+.todo__item-right, .todo__item-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.todo__bot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.todo__del-all{
+    background: royalblue;
+    border: 2px solid black;
+    padding: 5px;
     cursor: pointer;
 }
